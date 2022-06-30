@@ -17,6 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "backend": "json-server --host 192.168.2.11 --port 5000 db.json",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
