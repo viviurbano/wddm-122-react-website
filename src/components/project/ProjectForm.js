@@ -10,12 +10,15 @@ function ProjectForm({ handleSubmit, btnTxt, projectData }) {
   const [project, setProject] = useState(projectData || {});
 
   useEffect(() => {
-    fetch('http://192.168.2.11:5000/categories', {
-      method: 'GET',
-      headers: {
-        'Content-type': 'application/json',
-      },
-    })
+    fetch(
+      'https://my-json-server.typicode.com/viviurbano/wddm-122-react-website/categories',
+      {
+        method: 'GET',
+        headers: {
+          'Content-type': 'application/json',
+        },
+      }
+    )
       .then(resp => resp.json())
       .then(data => {
         setCategories(data);

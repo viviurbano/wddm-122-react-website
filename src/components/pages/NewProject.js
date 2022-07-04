@@ -10,18 +10,21 @@ function NewProject() {
     project.cost = 0;
     project.services = [];
 
-    fetch('http://192.168.2.11:5000/projects', {
-      method: 'POST',
-      headers: {
-        'Content-type': 'application/json',
-      },
-      body: JSON.stringify(project),
-    })
+    fetch(
+      'https://my-json-server.typicode.com/viviurbano/wddm-122-react-website/projects',
+      {
+        method: 'POST',
+        headers: {
+          'Content-type': 'application/json',
+        },
+        body: JSON.stringify(project),
+      }
+    )
       .then(resp => resp.json())
       .then(data => {
         console.log(data);
         //redirect
-        history.push('/projects', { message: 'Projeto criado com sucesso' });
+        history.push('/projects', { message: 'Project created successfully' });
       })
       .catch(err => console.log(err));
   }
@@ -30,7 +33,7 @@ function NewProject() {
     <div className={styles.newproject_container}>
       <h1>Create Project</h1>
       <p>Create your project and add services</p>
-      <ProjectForm handleSubmit={createPost} btnTxt="Criar Projeto" />
+      <ProjectForm handleSubmit={createPost} btnTxt="Create Project" />
     </div>
   );
 }
