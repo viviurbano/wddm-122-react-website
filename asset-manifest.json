@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/wddm-122-react-website/static/css/main.f43be32c.css",
-    "main.js": "/wddm-122-react-website/static/js/main.667a5047.js",
+    "main.css": "/wddm-122-react-website/static/css/main.f60670b5.css",
+    "main.js": "/wddm-122-react-website/static/js/main.edbd7788.js",
     "static/media/savings.svg": "/wddm-122-react-website/static/media/savings.25a5174d3c0ce57522d68f3ba58b7407.svg",
     "index.html": "/wddm-122-react-website/index.html",
-    "main.f43be32c.css.map": "/wddm-122-react-website/static/css/main.f43be32c.css.map",
-    "main.667a5047.js.map": "/wddm-122-react-website/static/js/main.667a5047.js.map"
+    "static/media/loading.svg": "/wddm-122-react-website/static/media/loading.5ff8599871e56a8a672f0861a01ef3bc.svg",
+    "main.f60670b5.css.map": "/wddm-122-react-website/static/css/main.f60670b5.css.map",
+    "main.edbd7788.js.map": "/wddm-122-react-website/static/js/main.edbd7788.js.map"
   },
   "entrypoints": [
-    "static/css/main.f43be32c.css",
-    "static/js/main.667a5047.js"
+    "static/css/main.f60670b5.css",
+    "static/js/main.edbd7788.js"
   ]
 }
