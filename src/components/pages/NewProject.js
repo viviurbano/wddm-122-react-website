@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
-import styles from './NewProject.module.css';
 import ProjectForm from '../project/ProjectForm';
+import styles from './NewProject.module.css';
 
 function NewProject() {
   const history = useNavigate();
@@ -15,7 +15,7 @@ function NewProject() {
       {
         method: 'POST',
         headers: {
-          'Content-type': 'application/json',
+          'Content-Type': 'application/json',
         },
         body: JSON.stringify(project),
       }

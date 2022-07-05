@@ -2,7 +2,7 @@ import styles from './SubmitButton.module.css';
 
 function SubmitButton({ text }) {
   return (
-    <div className={styles.form_control}>
+    <div>
       <button className={styles.btn}>{text}</button>
     </div>
   );

@@ -14,7 +14,3 @@
   border-radius: 0;
   border: none;
 }
-
-.form_control select::placeholder {
-  color: #7b7b7b;
-}

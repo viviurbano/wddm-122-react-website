@@ -12,7 +12,7 @@ function Home() {
       <LinkButton to="/newproject" text="Create new project right now">
         Create project!
       </LinkButton>
-      <img src={savings} alt="svg de um porquinho de colocar moeda" />
+      <img src={savings} alt="logo in svg" />
     </section>
   );
 }

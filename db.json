@@ -1,16 +1,29 @@
 {
   "projects": [
     {
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "cost": 0,
-      "services": [],
+      "name": "Infra project",
+      "budget": "10000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 5000,
+      "services": [
+        {
+          "name": "Hire a DevOps",
+          "cost": "5000",
+          "description": "DevOps to create AWS project"
+        }
+      ],
       "id": 2
     },
     {
+      "name": "Develop new site",
+      "budget": "3000",
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
       "cost": 0,
       "services": [],
       "id": 3
@@ -23,7 +36,7 @@
     },
     {
       "id": 2,
-      "name": "Development"
+      "name": "Desenvolvimento"
     },
     {
       "id": 3,
@@ -31,7 +44,7 @@
     },
     {
       "id": 4,
-      "name": "Planning"
+      "name": "Planing"
     }
   ]
 }
